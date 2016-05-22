@@ -1,0 +1,399 @@
+/* font-face downloaded from http://www.1001freefonts.com */
+@font-face{
+    font-family: 'ostrich-regular';
+    src:url('font/ostrich-regular.ttf');
+}
+@font-face{
+    font-family: 'antonio';
+    src:url('font/antonio/Antonio-Regular.ttf');
+}
+@font-face{
+    font-family:'cabinsketch-bold';
+    src:url('font/CabinSketch-Bold.otf');
+}
+@font-face{
+    font-family:'tenderness';
+    src:url('font/Tenderness.otf');
+}
+@font-face{
+    font-family:'bonvenoCF-Light';
+    src:url('font/BonvenoCF-Light.otf');
+}
+
+@font-face{
+    font-family:'BPreplay';
+    src:url('font/BPreplay.otf');
+}
+body{
+    padding:0px;
+    margin:0px;
+    background-color:whitesmoke;
+}
+
+/*setting up the font for the content*/
+ p, #benifits{
+    font-family: 'BPreplay', sans-serif;
+}
+#benifits ul li{
+    margin:15px;
+}
+#benifits em{
+    font-size:120%;
+    font-family:'cabinsketch-bold';
+}
+.text_area p{
+    font-family:'bonvenoCF-Light', 'tenderness';
+    font-size:90%;
+}
+
+/*stylign for the header and the center header*/
+#header{
+
+    margin-top:0px;
+    
+    width:100%;
+    clear:both;
+    margin-left:auto;
+    margin-right:auto;
+    height: 75px;
+    background-color:rgba(0,0,0,0.7);
+
+}
+
+#header_background{
+    padding:0px;
+    margin:0px;
+    background-image: url(img/AdobeStock_76322678_WM.jpg);
+    /*Image credited to stock.adobe.com*/
+}
+
+#center_header{
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    height:80%;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+    padding:0px;
+
+}
+#center_header img{ 
+    float:left;
+    margin-bottom:0px;
+    height: 100%;;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+#center_header ul{
+    display:block;
+    color: white;
+    float:right;
+    margin-top: 40px;
+    
+}
+
+#center_header .navi_item{
+    
+    font-family: 'ostrich-regular';
+    text-decoration: none;
+    font-size:140%;
+    font-weight: 500;
+    color:white;
+    margin:4px;
+    padding:5px;
+}
+
+#center_header .navi_item:hover{
+    border:1px solid rgba(255,255,255,1.0);
+    border-radius: 60px;
+    padding-top:10px;
+    padding-left:4px;
+    padding-right:4px;
+
+}
+
+#header ul li{
+    display:inline;
+}
+
+/*styling the main section and posts and text area*/
+
+#main_section{
+    background-color:white;
+    padding:15px;
+    padding-top:0px;
+    padding-bottom:0px;
+    
+    max-width:960px;
+    margin:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#main_section h1{
+    font-family: 'cabinsketch-bold';
+    font-size: 300%;
+}
+
+.text_area{
+    
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    text-align: right;
+    position:relative;
+    
+    left: 10px;
+    top:18%;
+    padding: 10px;
+    margin:0px;
+    overflow:hidden;
+    
+    width: 30%;
+    height: 60%;
+
+}
+.text_area h1{
+    margin:0px;
+}
+
+#get_involved{
+     /*Image credited to stock.adobe.com*/
+    background-image: url(img/AdobeStock_81533856_WM.jpg);
+    height:600px;
+    margin-bottom:0px;
+    margin-top:1px;
+    
+ 
+}
+#get_involved h1{
+    
+    color:greenyellow;
+}
+#our_volunteers h1{
+    color:orangered;
+}
+
+
+#our_volunteers{
+    background-image: url(img/AdobeStock_71638443_WM.jpg);
+    height:600px;
+}
+#support_us{
+     /*Image credited to stock.adobe.com*/
+    background-image:url(img/AdobeStock_70396441_WM.jpg);
+    height:600px;
+    margin-bottom:1px;
+}
+#support_us h1{
+    font-size:275%;
+    color:deepskyblue;
+}
+
+#donate a{
+    display:block;
+    
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right:10px;
+    padding-left:10px;
+    background-color:rgba(74,172,246,0.5);
+    text-align:center;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    font-size: 150%;
+    font-weight:100;
+    font-family:  'ostrich-regular';
+    position:relative;
+    z-index:999;
+    
+    left:21%;
+    bottom:0px;
+    width:50%;
+
+    
+}
+
+#donate a:hover, #donate a:active{
+    
+    background-color:rgba(74,172,246,1);
+
+}
+
+#apply a{
+    display:block;
+    
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right:10px;
+    padding-left:10px;
+    background-color:rgba(172,246,74,0.5);
+    text-align:center;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    font-size: 150%;
+    font-weight:100;
+    font-family:  'ostrich-regular';
+    position:relative;
+    z-index:999;
+    
+    left:21%;
+    bottom:0px;
+    width:50%;
+
+    
+}
+
+#apply a:hover, #apply a:active{
+    
+    background-color:rgba(172,246,74,0.8);
+
+}
+
+
+#volunteer a{
+    display:block;
+    
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-right:10px;
+    padding-left:10px;
+    background-color:rgba(248,6,6,0.5);
+    text-align:center;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    font-size: 150%;
+    font-weight:100;
+    font-family:  'ostrich-regular';
+    position:relative;
+    z-index:999;
+    
+    left:21%;
+    bottom:0px;
+    width:50%;
+
+    
+}
+
+#volunteer a:hover, #volunteer a:active{
+    
+    background-color:rgba(248,6,6,0.8);
+
+}
+
+
+
+
+.post{
+    margin-top:0px;
+    margin-bottom:30px;
+}
+
+#links{
+    padding-left:0px;
+    z-index:999;
+}
+
+#links li{
+    display:inline;
+    text-align:left;
+    font-family: 'ostrich-regular';
+
+    font-size:150%;
+    font-weight: 600;
+    padding:20px;
+    padding-left: 0px;
+}
+#links a{
+     font-family: 'ostrich-regular';
+    text-decoration: none;
+    font-size:140%;
+    font-weight: 500;
+    color:black;
+    margin:4px;
+    padding:5px;
+    margin-left:0px;
+}
+
+#links a:hover{
+    border:1px solid black;
+    border-radius: 60px;
+    padding-top:10px;
+    padding-left:4px;
+    padding-right:4px;
+
+}
+
+
+/*styling the footer and the contact information*/
+#footer{
+    position:relative;
+    bottom:0px;
+    padding:0px;
+    margin:0px;
+     /*Image credited to stock.adobe.com*/
+    background-image: url(img/AdobeStock_76322678_WM.jpg);
+    height:120px;
+    
+}
+
+#footer_wrap{
+    background-color:rgba(0,0,0,0.7);
+    width:100%;
+    height:120px;
+    
+}
+#inner_footer{
+
+    color:white;
+    overflow:hidden;
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    height:100%;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-family:'ostrich-regular';
+    padding:0px;
+}
+
+#inner_footer img{
+ float:right;
+ height: 94px;
+    
+}
+#title_btm{
+    padding-top:5px;
+    margin-bottom:0px;
+    margin-top:0px;
+    font-size:130%;
+}
+#inner_footer a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+#disclaim{
+    width:60%;
+    position:relative;
+    top:-39px;
+    left:20%;
+    
+    
+}
+#disclaim li {
+    display:inline;
+    margin:4px;
+    padding:1px; 
+}
+#inner_footer a:hover{
+    color:skyblue;
+    text-decoration: underline;
+}
